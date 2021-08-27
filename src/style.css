@@ -1,0 +1,69 @@
+h1 {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-bottom: none;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 60px 40px;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  box-shadow: 3px 3px 15px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+
+.searchCity {
+  border: none;
+  border-radius: 3px;
+  max-width: fit-content;
+  float: right;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  text-align: right;
+  opacity: 70%;
+  padding-right: 10px;
+  text-transform: capitalize;
+}
+
+.currentTempIcon {
+  display: block;
+  margin: o auto;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.divDay {
+  float: left;
+  display: inline;
+}
+
+.divTemp {
+  float: right;
+  display: inline;
+}
