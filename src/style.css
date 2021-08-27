@@ -29,6 +29,14 @@ h4 {
   padding-bottom: 20px;
 }
 
+.openSource {
+  font-family: "Nunito", sans-serif;
+  font-size: 8px;
+  margin: 30px auto;
+
+  text-align: center;
+}
+
 .container {
   max-width: 500px;
   margin: 30px auto;
