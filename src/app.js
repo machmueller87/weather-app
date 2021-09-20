@@ -36,8 +36,10 @@ dateElement.innerHTML = formatDate(currentTime);
 //
 // Search + API
 function displayWeather(response) {
+  let iconElement = document.querySelector("currentTempIcon"); 
   document.querySelector("h1").innerHTML = response.data.name;
   document.querySelector("h3").innerHTML = Math.round(response.data.main.temp);
+  iconElement.innerHTML=""
 }
 
 function search(event) {
